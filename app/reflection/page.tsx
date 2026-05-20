@@ -1,5 +1,6 @@
 import { PageTransition } from "@/components/PageTransition";
 import { Reveal } from "@/components/Reveal";
+import { ChapterNav } from "@/components/ChapterNav";
 
 export default function ReflectionPage() {
   return (
@@ -60,6 +61,7 @@ export default function ReflectionPage() {
             </div>
           </Reveal>
         </article>
+        <ChapterNav current="/reflection" />
       </div>
     </PageTransition>
   );

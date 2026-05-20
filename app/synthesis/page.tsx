@@ -1,6 +1,7 @@
 import { PageTransition } from "@/components/PageTransition";
 import { Reveal } from "@/components/Reveal";
 import { Collage, CollageLayer } from "@/components/Collage";
+import { ChapterNav } from "@/components/ChapterNav";
 
 const pillars = [
   {
@@ -139,6 +140,7 @@ export default function SynthesisPage() {
           </div>
         </Reveal>
       </article>
+      <ChapterNav current="/synthesis" />
     </PageTransition>
   );
 }

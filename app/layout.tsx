@@ -3,6 +3,7 @@ import { EB_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
+import { ScrollProgress } from "@/components/ScrollProgress";
 
 const ebGaramond = EB_Garamond({
   variable: "--font-eb-garamond",
@@ -33,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${ebGaramond.variable} ${inter.variable}`}>
       <body className="min-h-screen flex flex-col">
+        <ScrollProgress />
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />

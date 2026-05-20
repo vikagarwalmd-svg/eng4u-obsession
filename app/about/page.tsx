@@ -1,5 +1,6 @@
 import { PageTransition } from "@/components/PageTransition";
 import { Reveal } from "@/components/Reveal";
+import { ChapterNav } from "@/components/ChapterNav";
 
 export default function AboutPage() {
   return (
@@ -31,6 +32,7 @@ export default function AboutPage() {
           </div>
         </Reveal>
       </article>
+      <ChapterNav current="/about" />
     </PageTransition>
   );
 }

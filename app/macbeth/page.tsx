@@ -2,6 +2,7 @@ import { PageTransition } from "@/components/PageTransition";
 import { Reveal } from "@/components/Reveal";
 import { Collage, CollageLayer } from "@/components/Collage";
 import { PullQuote } from "@/components/PullQuote";
+import { ChapterNav } from "@/components/ChapterNav";
 
 export default function MacbethPage() {
   return (
@@ -111,6 +112,7 @@ export default function MacbethPage() {
           </div>
         </Reveal>
       </article>
+      <ChapterNav current="/macbeth" />
     </PageTransition>
   );
 }

@@ -2,6 +2,7 @@ import { PageTransition } from "@/components/PageTransition";
 import { Reveal } from "@/components/Reveal";
 import { Collage, CollageLayer } from "@/components/Collage";
 import { PullQuote } from "@/components/PullQuote";
+import { ChapterNav } from "@/components/ChapterNav";
 
 export default function FrankensteinPage() {
   return (
@@ -96,6 +97,7 @@ export default function FrankensteinPage() {
           </div>
         </Reveal>
       </article>
+      <ChapterNav current="/frankenstein" />
     </PageTransition>
   );
 }
