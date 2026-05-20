@@ -19,11 +19,12 @@ export default function DisclosurePage() {
               This project was developed in accordance with the ENG4U
               Culminating Activity&rsquo;s AI use policy, which permits the use
               of AI tools. The thematic argument, foil-character framework, and
-              personal reflection were developed by Rohan Agarwal. Claude, an
-              AI assistant, was used to support drafting, edit prose for
-              clarity, design and build the website front-end, source and tint
-              collage imagery, and deploy the site. All analytical claims are
-              the author&rsquo;s own.
+              personal reflection are Rohan Agarwal&rsquo;s own. Claude, an AI
+              assistant from Anthropic, was used to refine prose for clarity,
+              design and build the website front-end (HTML, CSS, React
+              components, deployment), and source the imagery from public-domain
+              archives. All analytical claims and the literary argument are the
+              author&rsquo;s own.
             </p>
           </div>
         </Reveal>
@@ -41,9 +42,9 @@ export default function DisclosurePage() {
             <Credit
               title="Imagery"
               items={[
-                "Film stills used under fair use for educational purposes: Frankenstein (1994, dir. Kenneth Branagh), Hamlet (1996, dir. Kenneth Branagh), The Tragedy of Macbeth (2021, dir. Joel Coen).",
-                "Additional public-domain imagery sourced from Wikimedia Commons.",
-                "Select compositional elements generated with AI (Midjourney / DALL·E) where specific imagery was not available.",
+                "All imagery sourced from Wikimedia Commons (public domain).",
+                "Paintings: Caspar David Friedrich The Sea of Ice (1824) and Wanderer above the Sea of Fog (1818); Henry Fuseli The Nightmare (1781); Francisco Goya Saturn Devouring His Son (1819–23) and The Sleep of Reason Produces Monsters (1799); John Everett Millais Ophelia (1851); Caravaggio Narcissus (1597–99); Pieter Claesz Vanitas Still Life (1630).",
+                "Photography: Kronborg Castle (the historical Elsinore); moorland; candle; ghost; bloody hands; daggers; memento mori. All Wikimedia Commons.",
               ]}
             />
             <Credit
