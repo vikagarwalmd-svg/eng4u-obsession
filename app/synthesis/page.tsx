@@ -33,43 +33,48 @@ export default function SynthesisPage() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <Collage aspect="16/9" className="mb-16">
-            <CollageLayer
-              src="/images/synthesis/mirror.jpg"
-              cover
-              opacity={0.82}
-            />
-            <CollageLayer
-              src="/images/synthesis/victor.jpg"
-              top="12%"
-              left="8%"
-              width="26%"
-              height="65%"
-              opacity={0.58}
-              z={2}
-              filter="saturate(0.25) brightness(0.65) contrast(1.25)"
-            />
-            <CollageLayer
-              src="/images/synthesis/hamlet.jpg"
-              top="12%"
-              left="37%"
-              width="26%"
-              height="65%"
-              opacity={0.58}
-              z={2}
-              filter="saturate(0.25) brightness(0.65) contrast(1.25)"
-            />
-            <CollageLayer
-              src="/images/synthesis/macbeth.jpg"
-              top="12%"
-              right="8%"
-              width="26%"
-              height="65%"
-              opacity={0.58}
-              z={2}
-              filter="saturate(0.25) brightness(0.65) contrast(1.25)"
-            />
-          </Collage>
+          <figure className="mb-16">
+            <Collage aspect="16/9">
+              <CollageLayer
+                src="/images/synthesis/mirror.jpg"
+                cover
+                opacity={0.82}
+              />
+              <CollageLayer
+                src="/images/synthesis/victor.jpg"
+                top="12%"
+                left="8%"
+                width="26%"
+                height="65%"
+                opacity={0.58}
+                z={2}
+                filter="saturate(0.25) brightness(0.65) contrast(1.25)"
+              />
+              <CollageLayer
+                src="/images/synthesis/hamlet.jpg"
+                top="12%"
+                left="37%"
+                width="26%"
+                height="65%"
+                opacity={0.58}
+                z={2}
+                filter="saturate(0.25) brightness(0.65) contrast(1.25)"
+              />
+              <CollageLayer
+                src="/images/synthesis/macbeth.jpg"
+                top="12%"
+                right="8%"
+                width="26%"
+                height="65%"
+                opacity={0.58}
+                z={2}
+                filter="saturate(0.25) brightness(0.65) contrast(1.25)"
+              />
+            </Collage>
+            <figcaption className="text-center text-cream-dim text-[13px] italic mt-5 font-serif">
+              After Caravaggio, Friedrich, Millais
+            </figcaption>
+          </figure>
         </Reveal>
 
         <Reveal delay={0.2}>

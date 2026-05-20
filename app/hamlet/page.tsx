@@ -16,42 +16,47 @@ export default function HamletPage() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <Collage className="mb-16">
-            <CollageLayer
-              src="/images/hamlet/castle.jpg"
-              cover
-              opacity={0.72}
-            />
-            <CollageLayer
-              src="/images/hamlet/ghost.jpg"
-              top="5%"
-              left="8%"
-              width="40%"
-              height="70%"
-              opacity={0.45}
-              z={2}
-            />
-            <CollageLayer
-              src="/images/hamlet/skull.jpg"
-              bottom="10%"
-              right="8%"
-              width="35%"
-              height="50%"
-              opacity={0.7}
-              rotate={-3}
-              z={3}
-            />
-            <CollageLayer
-              src="/images/hamlet/dagger.jpg"
-              top="32%"
-              right="36%"
-              width="22%"
-              height="32%"
-              opacity={0.55}
-              rotate={45}
-              z={4}
-            />
-          </Collage>
+          <figure className="mb-16">
+            <Collage>
+              <CollageLayer
+                src="/images/hamlet/castle.jpg"
+                cover
+                opacity={0.72}
+              />
+              <CollageLayer
+                src="/images/hamlet/ghost.jpg"
+                top="5%"
+                left="8%"
+                width="40%"
+                height="70%"
+                opacity={0.45}
+                z={2}
+              />
+              <CollageLayer
+                src="/images/hamlet/skull.jpg"
+                bottom="10%"
+                right="8%"
+                width="35%"
+                height="50%"
+                opacity={0.7}
+                rotate={-3}
+                z={3}
+              />
+              <CollageLayer
+                src="/images/hamlet/dagger.jpg"
+                top="32%"
+                right="36%"
+                width="22%"
+                height="32%"
+                opacity={0.55}
+                rotate={45}
+                z={4}
+              />
+            </Collage>
+            <figcaption className="text-center text-cream-dim text-[13px] italic mt-5 font-serif">
+              Kronborg &middot; the spectre &middot; the skull &middot; the blade
+            </figcaption>
+          </figure>
         </Reveal>
 
         <Reveal delay={0.2}>

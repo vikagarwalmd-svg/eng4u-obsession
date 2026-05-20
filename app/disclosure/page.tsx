@@ -42,16 +42,18 @@ export default function DisclosurePage() {
             <Credit
               title="Imagery"
               items={[
-                "All imagery sourced from Wikimedia Commons (public domain).",
-                "Paintings: Caspar David Friedrich The Sea of Ice (1824) and Wanderer above the Sea of Fog (1818); Henry Fuseli The Nightmare (1781); Francisco Goya Saturn Devouring His Son (1819–23) and The Sleep of Reason Produces Monsters (1799); John Everett Millais Ophelia (1851); Caravaggio Narcissus (1597–99); Pieter Claesz Vanitas Still Life (1630).",
-                "Photography: Kronborg Castle (the historical Elsinore); moorland; candle; ghost; bloody hands; daggers; memento mori. All Wikimedia Commons.",
+                "All imagery is public domain, sourced from Wikimedia Commons. Paintings were selected for thematic resonance rather than illustration.",
+                "Frankenstein collage: Caspar David Friedrich, The Sea of Ice (1823-24), for the Arctic frame; Henry Fuseli, The Nightmare (1781), for the creature's gothic terror; Francisco Goya, Saturn Devouring His Son (1819-23), as the icon of consumption by one's own creation; Vanitas still life tradition for Victor's secret work.",
+                "Hamlet collage: Kronborg Castle, the historical Elsinore. Memento mori iconography. Spectral and blade imagery.",
+                "Macbeth collage: Francisco Goya, The Sleep of Reason Produces Monsters (1799), the rational mind giving way to nightmare. Imagery of Lady Macbeth's sleepwalking guilt, the heath, and candlelight.",
+                "Synthesis collage: Caravaggio, Narcissus (1597-99), the central visual metaphor of self-reflection. Caspar David Friedrich, Wanderer above the Sea of Fog (1818), the Romantic obsessive. John Everett Millais, Ophelia (1851-52), the passive collateral of obsession.",
               ]}
             />
             <Credit
               title="Typography"
               items={[
-                "EB Garamond (body) — Georg Duffner, SIL Open Font License.",
-                "Inter (UI) — Rasmus Andersson, SIL Open Font License.",
+                "EB Garamond (body) by Georg Duffner. SIL Open Font License.",
+                "Inter (UI) by Rasmus Andersson. SIL Open Font License.",
               ]}
             />
             <Credit

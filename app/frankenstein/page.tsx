@@ -16,42 +16,47 @@ export default function FrankensteinPage() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <Collage className="mb-16">
-            <CollageLayer
-              src="/images/frankenstein/lightning.jpg"
-              cover
-              opacity={0.72}
-            />
-            <CollageLayer
-              src="/images/frankenstein/creature.jpg"
-              top="10%"
-              right="5%"
-              width="45%"
-              height="70%"
-              opacity={0.55}
-              rotate={-2}
-              z={2}
-            />
-            <CollageLayer
-              src="/images/frankenstein/door.jpg"
-              bottom="8%"
-              left="6%"
-              width="35%"
-              height="50%"
-              opacity={0.5}
-              z={3}
-            />
-            <CollageLayer
-              src="/images/frankenstein/journal.jpg"
-              top="22%"
-              left="32%"
-              width="28%"
-              height="38%"
-              opacity={0.6}
-              rotate={3}
-              z={4}
-            />
-          </Collage>
+          <figure className="mb-16">
+            <Collage>
+              <CollageLayer
+                src="/images/frankenstein/lightning.jpg"
+                cover
+                opacity={0.72}
+              />
+              <CollageLayer
+                src="/images/frankenstein/creature.jpg"
+                top="10%"
+                right="5%"
+                width="45%"
+                height="70%"
+                opacity={0.55}
+                rotate={-2}
+                z={2}
+              />
+              <CollageLayer
+                src="/images/frankenstein/door.jpg"
+                bottom="8%"
+                left="6%"
+                width="35%"
+                height="50%"
+                opacity={0.5}
+                z={3}
+              />
+              <CollageLayer
+                src="/images/frankenstein/journal.jpg"
+                top="22%"
+                left="32%"
+                width="28%"
+                height="38%"
+                opacity={0.6}
+                rotate={3}
+                z={4}
+              />
+            </Collage>
+            <figcaption className="text-center text-cream-dim text-[13px] italic mt-5 font-serif">
+              After Friedrich, Fuseli, Goya &middot; a vanitas study
+            </figcaption>
+          </figure>
         </Reveal>
 
         <Reveal delay={0.2}>
