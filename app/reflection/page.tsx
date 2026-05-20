@@ -33,9 +33,9 @@ export default function ReflectionPage() {
                 }
               >
                 At Crescent, success is what you&rsquo;re supposed to want.
-                Sleep gets treated like weakness. By senior year, where you
-                got in for university starts to feel like the most important
-                fact about you.
+                For four years, I worked hard, made plans, kept aiming
+                forward. I didn&rsquo;t stop to ask whether what I was
+                chasing was good for me.
               </p>
 
               <p>
