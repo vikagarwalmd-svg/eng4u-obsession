@@ -32,9 +32,10 @@ export default function ReflectionPage() {
                   } as React.CSSProperties
                 }
               >
-                At Crescent, success is what you&rsquo;re supposed to want. By
-                senior year, where you got in for university starts to feel
-                like the most important fact about you.
+                At Crescent, success is what you&rsquo;re supposed to want.
+                Sleep gets treated like weakness. By senior year, where you
+                got in for university starts to feel like the most important
+                fact about you.
               </p>
 
               <p>

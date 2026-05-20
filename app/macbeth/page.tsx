@@ -122,9 +122,9 @@ export default function MacbethPage() {
               even Lady Macbeth&rsquo;s death barely registers; life itself
               has become meaningless. He dies at Macduff&rsquo;s hands,
               completing the destruction the prophecy unleashed. Through
-              hallucinations, blood imagery, and supernatural framing,
-              Shakespeare presents obsession as a force that distorts
-              perception, erodes morality, and consumes the self entirely.
+              hallucinations, blood imagery, and the witches&rsquo;
+              prophecies, Shakespeare presents obsession as something that
+              erodes morality and consumes the self.
             </p>
           </div>
         </Reveal>

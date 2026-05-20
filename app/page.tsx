@@ -42,14 +42,14 @@ export default function HomePage() {
 
             <Reveal delay={0.3}>
               <p className="prose-lit max-w-[640px] mb-12">
-                Obsession in these texts isolates the protagonist, distorts
-                judgment, and turns desire into destruction. Across{" "}
-                <em>Hamlet</em>, <em>Macbeth</em>, and <em>Frankenstein</em>,
-                separated by more than two centuries and three genres, the same
-                psychological pattern emerges. This site traces how each
-                protagonist collapses under obsession and how each text quietly
-                plants an alternative in its foils. The choice between fixation
-                and restraint is still in front of every reader.
+                Obsession in these texts isolates the protagonist and turns
+                his desire into destruction. Across <em>Hamlet</em>,{" "}
+                <em>Macbeth</em>, and <em>Frankenstein</em>, separated by more
+                than two centuries and three genres, all three describe
+                obsession the same way. This site traces how each protagonist
+                collapses under obsession and how each text quietly plants an
+                alternative in its foils. The choice between fixation and
+                restraint is still in front of every reader.
               </p>
             </Reveal>
 
