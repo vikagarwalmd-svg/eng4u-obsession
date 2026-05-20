@@ -80,6 +80,17 @@ export default function FrankensteinPage() {
               target.
             </p>
 
+          </div>
+        </Reveal>
+
+        <Reveal delay={0.3}>
+          <PullQuote>
+            I shall be with you on your wedding-night.
+          </PullQuote>
+        </Reveal>
+
+        <Reveal delay={0.35}>
+          <div className="prose-lit max-w-[680px] mx-auto">
             <p>
               The consequences spread outward through a chain of deaths Victor
               can neither stop nor escape. William, his younger brother, is the

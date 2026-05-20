@@ -2,6 +2,15 @@ import Link from "next/link";
 import { PageTransition } from "@/components/PageTransition";
 import { Reveal } from "@/components/Reveal";
 
+const chapters = [
+  { href: "/about", label: "About", img: "/images/home/candle.jpg" },
+  { href: "/frankenstein", label: "Frankenstein", img: "/images/frankenstein/lightning.jpg" },
+  { href: "/hamlet", label: "Hamlet", img: "/images/hamlet/castle.jpg" },
+  { href: "/macbeth", label: "Macbeth", img: "/images/macbeth/heath.jpg" },
+  { href: "/synthesis", label: "Synthesis", img: "/images/synthesis/mirror.jpg" },
+  { href: "/reflection", label: "Reflection", img: "/images/synthesis/victor.jpg" },
+];
+
 export default function HomePage() {
   return (
     <PageTransition>
@@ -50,6 +59,52 @@ export default function HomePage() {
               </Link>
             </Reveal>
           </div>
+        </div>
+      </section>
+
+      <section className="max-w-[1200px] mx-auto px-6 md:px-10 py-20 md:py-28 border-t border-rule">
+        <Reveal>
+          <div className="flex items-baseline justify-between mb-10 md:mb-12">
+            <span className="eyebrow">The Pieces</span>
+            <span className="font-sans text-[11px] tracking-[0.2em] uppercase text-cream-dim">
+              Six chapters
+            </span>
+          </div>
+        </Reveal>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+          {chapters.map((c, i) => (
+            <Reveal key={c.href} delay={i * 0.06}>
+              <Link
+                href={c.href}
+                className="group relative block aspect-[4/3] overflow-hidden border border-rule"
+              >
+                <div
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-[1200ms] ease-out group-hover:scale-[1.06]"
+                  style={{
+                    backgroundImage: `url(${c.img})`,
+                    filter: "saturate(0.5) brightness(0.55) contrast(1.08)",
+                  }}
+                />
+                <div
+                  className="absolute inset-0 pointer-events-none"
+                  style={{
+                    background:
+                      "linear-gradient(180deg, transparent 35%, rgba(10,10,10,0.92) 100%)",
+                  }}
+                />
+                <div className="absolute inset-0 bg-crimson opacity-0 mix-blend-multiply transition-opacity duration-500 group-hover:opacity-30 pointer-events-none" />
+                <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6">
+                  <span className="font-sans text-[10px] tracking-[0.24em] uppercase text-gold mb-2 block">
+                    Chapter {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="font-serif italic text-[24px] md:text-[28px] text-cream group-hover:text-gold transition-colors duration-300">
+                    {c.label}
+                  </h3>
+                </div>
+              </Link>
+            </Reveal>
+          ))}
         </div>
       </section>
     </PageTransition>

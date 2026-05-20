@@ -100,6 +100,18 @@ export default function MacbethPage() {
               certainty from the supernatural forces that first corrupted him.
             </p>
 
+          </div>
+        </Reveal>
+
+        <Reveal delay={0.3}>
+          <PullQuote>
+            Tomorrow, and tomorrow, and tomorrow, creeps in this petty pace
+            from day to day.
+          </PullQuote>
+        </Reveal>
+
+        <Reveal delay={0.35}>
+          <div className="prose-lit max-w-[680px] mx-auto">
             <p>
               By ordering the slaughter of Macduff&rsquo;s wife and children,
               Macbeth abandons any remaining moral restraint. Lady

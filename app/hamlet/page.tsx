@@ -79,6 +79,17 @@ export default function HamletPage() {
               is worth enduring.
             </p>
 
+          </div>
+        </Reveal>
+
+        <Reveal delay={0.3}>
+          <PullQuote>
+            To be, or not to be, that is the question.
+          </PullQuote>
+        </Reveal>
+
+        <Reveal delay={0.35}>
+          <div className="prose-lit max-w-[680px] mx-auto">
             <p>
               The inability to resolve the fixation causes devastating
               collateral damage. Hamlet impulsively kills Polonius on
