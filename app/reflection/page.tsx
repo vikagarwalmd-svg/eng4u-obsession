@@ -32,24 +32,22 @@ export default function ReflectionPage() {
                   } as React.CSSProperties
                 }
               >
-                At Crescent, success is what you&rsquo;re supposed to want.
-                Sleep gets treated like weakness. People talk about each
-                other&rsquo;s GPAs the way they used to talk about their
-                personalities. By senior year, where you got in for university
-                starts to feel like the most important fact about you.
+                At Crescent, success is what you&rsquo;re supposed to want. By
+                senior year, where you got in for university starts to feel
+                like the most important fact about you.
               </p>
 
               <p>
                 <em>Frankenstein</em> gave me a name for it. Victor chases one
-                goal so hard, in such isolation, that everyone around him dies
-                before he sees what he&rsquo;s done. But Shelley also writes
-                Walton, the explorer who hears Victor&rsquo;s story and turns
-                his ship back. At Crescent there are both. Some people are
-                Victors. Some are Waltons. I&rsquo;ve seen both up close.
+                goal so hard, in such isolation, that everyone around him is
+                gone before he sees what he&rsquo;s done. But Shelley also
+                writes Walton, the explorer who hears Victor&rsquo;s story and
+                turns his ship back. Both pulls feel real to me. I&rsquo;ve
+                felt them in myself this year.
               </p>
 
               <p>
-                Going to UNC for business means walking into the same
+                Going to school for business means walking into the same
                 environment with the volume turned up. Everyone there will be
                 driven. Everyone will have a plan. I&rsquo;m not going to
                 promise I&rsquo;ll be a Walton. I&rsquo;d be lying. But
